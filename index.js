@@ -17,8 +17,8 @@ app.get("/", function (req, res) {
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    // origin: "http://tranquil-fairy-da0e18.netlify.app"
-    origin: "http://localhost:3000"
+    
+    origin: "https://zippy-puppy-2983bb.netlify.app"
 }));
 app.use(router);
 
